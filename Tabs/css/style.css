@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cantainer{
+    width: 80%;
+    margin: 0 auto;
+}
+input{
+    display: none;
+}
+.title{
+    font-size: 300px;
+    padding: 0 10px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.pic img {
+    width: 300px;
+    height: 330px;
+    margin-top: 100px;
+}
+
+#tab-1:checked ~ .pic-2,
+#tab-1:checked ~ .pic-3 {
+    display: none;
+}
+
+#tab-2:checked ~ .pic-1,
+#tab-2:checked ~ .pic-3 {
+    display: none;
+}
+
+#tab-3:checked ~ .pic-1,
+#tab-3:checked ~ .pic-2 {
+    display: none;
+}
